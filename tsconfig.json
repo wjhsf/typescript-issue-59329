@@ -5,7 +5,6 @@
 
     // When "typeRoots" is not specified, this project has 8 compiler errors.
     // When "typeRoots" is specified, this project has 1 compiler error.
-    // Other configs that
     // "typeRoots": ["./node_modules/@types"],
 
     "module": "Node16",
