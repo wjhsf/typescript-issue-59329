@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/pkg": "file:pkg",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "test": "tsc"
+  }
+}

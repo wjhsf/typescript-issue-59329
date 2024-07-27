@@ -1,0 +1,8 @@
+{
+  "name": "@types/pkg",
+  "version": "1.0.0",
+  "types": "./index.d.ts",
+  "exports": {
+    "exports": "./external.d.ts"
+  }
+}

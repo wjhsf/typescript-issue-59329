@@ -1,0 +1,23 @@
+{
+  "files": ["index.ts"],
+  "compilerOptions": {
+    "noEmit": true,
+
+    // When "typeRoots" is not specified, this project has 8 compiler errors.
+    // When "typeRoots" is specified, this project has 1 compiler error.
+    // Other configs that
+    // "typeRoots": ["./node_modules/@types"],
+
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    // Preserve/Node10, Preserve/Bundler, and ES2015+/Bundler all have
+    // differences in behavior depending on the presence of "typeRoots".
+    // "moduleResolution": "Node10",
+    // "moduleResolution": "Bundler"
+    // "module": "Preserve",
+    // "module": "ES2015",
+    // "module": "ES2020",
+    // "module": "ES2022",
+    // "module": "ESNext",
+  }
+}
